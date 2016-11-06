@@ -1,0 +1,72 @@
+.top-left-info {
+	color: #5a5a5a;
+	padding: 3px 10px;
+	font-family: 'Handlee', cursive;
+	font-family: 'Architects Daughter', cursive;
+
+}
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.subtitle {
+	background-image:url('../images/background-2.jpg');
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.subtitle .container {
+	position: relative;
+	top:100px;
+}
+
+.subtitle h1 {
+	color: #fff;
+	font-size: 48px;
+	font-family: 'Shift', sans-serif;
+	font-weight: bold;
+}
+
+.subtitle p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.projects-list {
+	background-color: #efefef;
+	border-bottom: 1px solid #dbdbdb;
+}
+
+.projects-list h2 {
+	color: #393c3d;
+	font-size: 24px;
+}
+
+.projects-list p {
+	font-size: 15px;
+	margin-bottom: 13px;
+}
+
+.info {
+	background-color: #f7f7f7;
+}
+
+.info h3 {
+	font-family: 'Shift', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.info a {
+	color: #00b0ff;
+}
