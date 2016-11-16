@@ -3,8 +3,13 @@
 .top-left-info {
 	color: #5a5a5a;
 	padding: 3px 10px;
-	font-family: 'Handlee', cursive;
 	font-family: 'Architects Daughter', cursive;
+}
+
+.muted {
+	padding-right: 2em;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: lighter;
 }
 
 .nav a {
@@ -13,6 +18,7 @@
 	font-weight: bold;
 	padding: 3px 10px;
 	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .nav li {
@@ -58,27 +64,12 @@
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	/*top: calc(250px - 50vh);
-	padding-top: 100px;*/
-	opacity: 0.9;
-	border-bottom: 0;
-	padding-bottom: 0;
-	margin-bottom: 0;
+	opacity: 0.7;
+	border-top: 0;
+	padding-top: 0;
+	margin-top: 0;
 	}
 
-/*#background {
-	background-image: url(../images/background-2.jpg);
-	transform: translateZ(-1px) scale(2);
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: calc(250px - 50vh);
-	padding-top: 100px;
-	opacity: 0.9;
-	border-bottom: 0;
-	padding-bottom: 0;
-	margin-bottom: 0;
-}*/
 
 .foreground1 {
 	position: relative;
@@ -91,36 +82,49 @@
 
 .foreground2 {
 	position: relative;
-	top: 20em;
-
-	/*background: #eaf2ef;*/
-	/*opacity: 0.7;*/
+	top: 28em;
+	background: #eaf2ef;
+	opacity: 0.7;
 	/*background: #efefef;*/
-	padding-top: 100px;
+	/*padding-top: 100px;*/
 }
 
 .foreground3 {
 	position: relative;
-	top: 30em;
-
-	/*background: #eaf2ef;*/
-	opacity: 0.7;
+	/*top: 40em;*/
+	top: 31em;
+	background: #eaf2ef;
+	opacity: 0.5;
 	/*background: #efefef;*/
 	/*padding-top: 100px;*/
 }
 
 .foreground4 {
 	position: relative;
-	top: 40em;
-	/*background: #efefef;
-	opacity: 0.7;*/
+	top: 10em;
+	background: #eaf2ef;
+	/*opacity: 0.9;*/
 	/*padding-top: 100px;*/
+	padding-bottom: 8em;
 }
 
-.info h3 {
-	font-family: 'Shift', sans-serif;
-	font-size: 18px;
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
 	font-weight: bold;
+	color: #0a0a0a;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+	color: #0a0a0a;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #0a0a0a;
 }
 
 .info a {
