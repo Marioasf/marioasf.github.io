@@ -1,82 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="description" content="Mário Francisco portfolio web page.">
-	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Mário Francisco portfolio web page.">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<title>Mário Francisco Web Developer Portfolio</title>
+    <title>Mário Francisco Web Developer Portfolio</title>
 
 
-	<link rel="stylesheet" href="styles/bootstrap.min.css">
-	<link rel="stylesheet" href="styles/main.css">
-	<link href="https://fonts.googleapis.com/css?family=Architects+Daughter%7cHandlee" rel="stylesheet">
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter%7cHandlee" rel="stylesheet">
 
-	<link rel="stylesheet" href="scripts/bootstrap.min.js">
+    <link rel="stylesheet" href="scripts/bootstrap.min.js">
 
-	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 
 </head>
 
 <body>
-	<div class="nav navbar-default navbar-fixed-top">
-		<div class="container">
-			<ul class="pull-left top-left-info">
-				<li>Mário Alberto Simões Francisco</li>
-			</ul>
-			<ul class="pull-right">
-				<li><a href="#">Portfolio</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div>
-	</div>
 
-	<div class="subtitle text-center">
-		<div class="container">
-			<h1>Web developer.</h1>
-			<p>PHP, HTML5, CSS3, Javascript.</p>
-		</div>
-	</div>
+   <div class="nav navbar-default navbar-fixed-top">
+      <div class="container">
+         <ul class="pull-left top-left-info">
+            <li>Mário Alberto Simões Francisco</li>
+        </ul>
+        <ul class="pull-right">
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</div>
 
-	<div class="projects-list">
-		<div class="container">
-			<h2>Portfolio</h2>
-			<p>These are some of the academic projects I have been involved in.</p>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img src="images/project1.png" alt="Project 1">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img src="images/project2.png" alt="Project 2">
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="thumbnail">
-						<img src="images/project3.png" alt="Project 3">
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+<div id="container">
+  <div id="group1">
 
-	<div class="info">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4">
-					<h3>About</h3>
-					<p>I'm a 28 year old web developer from Portugal that recently graduated with a bachelor's degree in Informatics Engineering.</p>
-					<p>Check my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> profile for more info.</p>
-				</div>
-				<div class="col-md-4">
-					<h3>Contact</h3>
-					<p>You can contact me through my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> or <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioasfrancisco@gmail.com&su=Contacting%20for...&body=Hello&bcc=1091339@isep.ipp.pt" target="_blank">email</a> account.</p>
-				</div>
-			</div>
-		</div>
-	</div>
+    <!--<div class="background">
+      <img src="images/background-2.jpg" alt="Background">
+  </div>-->
+
+    <div id="backgroundAnimated"></div>
+    <!--<div id="background"></div>-->
+
+
+  <div class="foreground1 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+              <p><h1>Web developer.</h1></p>
+              <p>PHP, HTML5, CSS3, Javascript.</p>
+              </div>
+            </div>
+        </div>
+  </div>
+
+  <div class="projects-list foreground2 text-center">
+    <h2>Portfolio</h2>
+    <p>These are some of the academic projects I have been involved in.</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+
+                    <img src="images/project1.png" alt="Project 1">
+
+            </div>
+            <div class="col-md-4">
+
+                    <img src="images/project2.png" alt="Project 2">
+
+            </div>
+            <div class="col-md-4">
+
+                    <img src="images/project3.png" alt="Project 3">
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="foreground3 text-center">
+        <h2>Certificates</h2>
+        <p>List of certificates acquired.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+
+                        <img src="images/project1.png" alt="Project 1">
+
+                </div>
+                <div class="col-md-4">
+
+                        <img src="images/project2.png" alt="Project 2">
+
+                </div>
+                <div class="col-md-4">
+
+                        <img src="images/project3.png" alt="Project 3">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="info foreground4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>About</h3>
+                    <p>I'm a 28 year old web developer from Portugal that recently graduated with a bachelor's degree in Informatics Engineering.</p>
+                    <p>Check my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> profile for more info.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Contact</h3>
+                    <p>You can contact me through my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> or <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioasfrancisco@gmail.com&su=Contacting%20for...&body=Hello&bcc=1091339@isep.ipp.pt" target="_blank">email</a> account.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
 </body>
 </html>
