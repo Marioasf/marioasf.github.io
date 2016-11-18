@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Mário Francisco portfolio web page.">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
@@ -51,60 +53,139 @@
       </div>
   </div>
 
-  <div class="projects-list foreground2 text-center">
+    <!--Accordion -->
 
-    <h1>Portfolio</h1>
-    <p>These are some of the academic projects I have been involved in.</p>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 thumbnail">
-                <h3>Deliciaego</h3>
-                <p>Online platform with the purpose of facilitating to users the disclosure of intentions to sell or contract products, services or interpersonal communication through a classified system. Integrates some social network features like friends list, user profile, personal timeline, like button and posting videos, images and text.<p>
-                <a href="http://deliciaego.byethost4.com/"><img src="images/deliciaego.png" alt="Deliciaego"></a>
-            </div>
-            <div class="col-md-4 thumbnail">
-                <h3>Survey Creator</h3>
-                <p>Software developed in Java that allows users to create and answer school/college surveys. Also generates statistics based on the answers.</p>
-                <a href="https://www.dropbox.com/s/j7qtxec2s8uc94g/Survey.zip?dl=0"><img src="images/surveys.png" alt="Survey"></a>
-            </div>
-            <div class="col-md-4 thumbnail">
-                <h3>Lorentz Force/Cathode Ray Tube Calculator</h3>
-                <p>Java application that calculates the combination of electric and magnetic force on a point charge due to electromagnetic fields and depending on the user input. Also generates a visual representation of a cathodic ray deflection. </p>
-                <a href="https://www.dropbox.com/s/ff2iv3gugzdw2nw/Lorentz%20Law%20-%20CRT.zip?dl=0"><img src="images/lorentz_force_calculator.png" alt="CRT"></a>
-            </div>
-        </div>
-
-        <h1>Certificates</h1>
-        <p>List of certificates acquired.</p>
-
-
-        <div class="row">
-            <div class="col-md-4 thumbnail">
-                <h3>Cisco Certified Network Associate</h3>
-                <a href="https://www.dropbox.com/s/x9h4ej1hqfzkf3r/CCNA.pdf?dl=0"><img src="images/CCNA.png" alt="CCNA"></a>
-            </div>
-            <div class="col-md-4 thumbnail">
-                <h3>Android Development</h3>
-                <a href="https://www.dropbox.com/s/u7sg723xkodmaij/Certificado%20ACM%20-%20Palestra%20Android.pdf?dl=0"><img src="images/android.png" alt="Android"></a>
-            </div>
-            <div class="col-md-4 thumbnail">
-                <h3>Microsoft Demo Day</h3>
-                <a href="https://www.dropbox.com/s/t8568hhmjk6nhry/Certificado%20ACM%20-%20Microsoft%20Demo%20Day.pdf?dl=0"><img src="images/microsoft.png" alt="Microsoft"></a>
-            </div>
-        </div>
-        <div class="info foreground4">
+      <div class="panel-group text-center" id="accordion" role="tablist" aria-multiselectable="true" aria-expanded="false">
+      <h1>Portfolio</h1>
+        <p>These are some of the academic projects I have been involved in.</p>
+        <div class="container">
             <div class="row">
-                <div class="col-md-6">
-                    <h2>About</h2>
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground2">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h2>Deliciaego</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                          <p>Online platform with the purpose of facilitating to users the disclosure of intentions to sell or contract products, services or interpersonal communication through a classified system. Integrates some social network features like friends list, user profile, personal timeline, like button and posting videos, images and text.<p>
+                          <a href="http://deliciaego.byethost4.com/"><img src="images/deliciaego.png" class="img-responsive" alt="Deliciaego"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground2">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h2>Survey Creator</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                          <p>Software developed in Java that allows users to create and answer school/college surveys. Also generates statistics based on the answers.</p>
+                            <a href="https://www.dropbox.com/s/j7qtxec2s8uc94g/Survey.zip?dl=0"><img src="images/surveys.png" class="img-responsive" alt="Survey"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground2">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          <h2>Lorentz Force/Cathode Ray Tube Calculator</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                          <p>Java application that calculates the combination of electric and magnetic force on a point charge due to electromagnetic fields and depending on the user input. Also generates a visual representation of a cathodic ray deflection. </p>
+                          <a href="https://www.dropbox.com/s/ff2iv3gugzdw2nw/Lorentz%20Law%20-%20CRT.zip?dl=0"><img src="images/lorentz_force_calculator.png" class="img-responsive" alt="CRT"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+<!-- -->
+
+      <div class="panel-group text-center" id="accordion" role="tablist" aria-multiselectable="true" aria-expanded="false">
+          <h1>Certificates</h1>
+          <p>List of certificates acquired.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground3">
+                      <div class="panel-heading" role="tab" id="headingOne">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion" href="#certificatesCollapseOne" aria-expanded="true" aria-controls="certificatesCollapseOne">
+                            <h2>Cisco Certified Network Associate</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="certificatesCollapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="panel-body">
+                          <a href="https://www.dropbox.com/s/x9h4ej1hqfzkf3r/CCNA.pdf?dl=0"><img src="images/CCNA.png" alt="CCNA"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground3">
+                      <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#certificatesCollapseTwo" aria-expanded="false" aria-controls="certificatesCollapseTwo">
+                            <h2>Android Development Lecture</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="certificatesCollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            <a href="https://www.dropbox.com/s/u7sg723xkodmaij/Certificado%20ACM%20-%20Palestra%20Android.pdf?dl=0"><img src="images/android.png" alt="Android"></a>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel panel-default foreground3">
+                      <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#certificatesCollapseThree" aria-expanded="false" aria-controls="certificatesCollapseThree">
+                          <h2>Microsoft Demo Day Conference</h2>
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="certificatesCollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div class="panel-body">
+                          <a href="https://www.dropbox.com/s/t8568hhmjk6nhry/Certificado%20ACM%20-%20Microsoft%20Demo%20Day.pdf?dl=0"><img src="images/microsoft.png" alt="Microsoft"></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+<!-- -->
+
+  <div class="text-center">
+            <div class="row">
+                <div class="col-md-6 foreground4">
+                    <h3>About</h3>
                     <p>I'm a 28 year old web developer from Portugal that recently graduated with a bachelor's degree in Informatics Engineering.</p>
                     <p>Check my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> profile for more info.</p>
                 </div>
-                <div class="col-md-6">
-                    <h2>Contact</h2>
+                <div class="col-md-6 foreground4">
+                    <h3>Contact</h3>
                     <p>You can contact me through my <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank">LinkedIn</a> or <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioasfrancisco@gmail.com&su=Contacting%20for...&body=Hello&bcc=1091339@isep.ipp.pt" target="_blank">email</a> account.</p>
                 </div>
             </div>
-        </div>
     </div>
 </div>
 
@@ -117,17 +198,20 @@
 
 <div id="footer">
    <div class="navbar navbar-inner navbar-default navbar-fixed-bottom">
-    <p class="muted credit">Copyright © 2016 Mário Francisco</p>
+    <p class="muted credit">Copyright © 2016 Mário Francisco
 
     <a href="https://twitter.com/Einkehr"><img src="images/twitter.png" alt="Twitter"></a>
     <a href="https://www.linkedin.com/in/marioasfrancisco" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
 
     <a href="https://github.com/Marioasf"><img src="images/github.png" alt="GitHub"></a>
 
-    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioasfrancisco@gmail.com&su=Contacting%20for...&body=Hello&bcc=1091339@isep.ipp.pt" target="_blank"><img src="images/gmail.png" alt="Gmail"></a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=marioasfrancisco@gmail.com&su=Contacting%20for...&body=Hello&bcc=1091339@isep.ipp.pt" target="_blank"><img src="images/gmail.png" alt="Gmail"></a></p>
 
 
 </div>
 </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

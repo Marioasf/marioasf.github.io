@@ -7,7 +7,8 @@
 }
 
 .muted {
-	padding-right: 2em;
+	margin-top: 10px;
+	margin-left: 10px;
 	font-family: 'Architects Daughter', cursive;
 	font-weight: lighter;
 }
@@ -73,38 +74,26 @@
 
 .foreground1 {
 	position: relative;
-	/*top: 10em;*/
 	padding-top: 100px;
-	/*background: #eaf2ef;*/
-	/*opacity: 0.7;*/
-	/*background: #efefef;*/
+	padding-bottom: 700px;
 }
 
 .foreground2 {
 	position: relative;
-	top: 28em;
 	background: #eaf2ef;
 	opacity: 0.7;
-	/*background: #efefef;*/
-	/*padding-top: 100px;*/
 }
 
 .foreground3 {
 	position: relative;
-	/*top: 40em;*/
-	top: 31em;
 	background: #eaf2ef;
-	opacity: 0.5;
-	/*background: #efefef;*/
-	/*padding-top: 100px;*/
+	opacity: 0.7;
 }
 
 .foreground4 {
 	position: relative;
 	top: 10em;
 	background: #eaf2ef;
-	/*opacity: 0.9;*/
-	/*padding-top: 100px;*/
 	padding-bottom: 8em;
 }
 
