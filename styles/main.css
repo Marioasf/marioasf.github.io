@@ -2,9 +2,14 @@
 
 .top-left-info {
 	color: #5a5a5a;
-	padding: 3px 10px;
+	padding: 10px 3px 10px 0px;
 	font-family: 'Architects Daughter', cursive;
 }
+
+.top-right-info {
+	padding-top: 10px;
+}
+
 
 .muted {
 	margin-top: 10px;
@@ -54,59 +59,71 @@
 	to { background-position: 90000%; }
 }
 
-#backgroundAnimated {
-	background-image: url(../images/background-3.png);
-
-	background-repeat: repeat-x;
-	animation: animatedBackground 100000s linear infinite;
-	-webkit-animation: animatedBackground 100000s linear infinite;
-	transform: translateZ(-1px) scale(2);
-
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	opacity: 0.7;
-	border-top: 0;
-	padding-top: 0;
-	margin-top: 0;
+/*For small devices regular background*/
+@media only screen and (max-width: 736px) {
+	#backgroundAnimated {
+		background-image: url(../images/background-3.png);
+		background-repeat: repeat-x;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0.7;
+		border-top: 0;
+		padding-top: 0;
+		margin-top: 0;
 	}
+}
 
+/*For other devices has an animated background*/
+@media only screen and (min-width: 736px) {
+	#backgroundAnimated {
+		background-image: url(../images/background-3.png);
+		background-repeat: repeat-x;
+		animation: animatedBackground 100000s linear infinite;
+		-webkit-animation: animatedBackground 100000s linear infinite;
+		transform: translateZ(-1px) scale(2);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0.7;
+		border-top: 0;
+		padding-top: 0;
+		margin-top: 0;
+		}
+}
 
 .foreground1 {
 	position: relative;
 	padding-top: 100px;
-	padding-bottom: 700px;
+	margin-bottom: 710px;
 }
 
 .foreground2 {
 	position: relative;
 	background: #eaf2ef;
 	opacity: 0.7;
+	margin-bottom: 800px;
 }
 
-.foreground3 {
-	position: relative;
-	background: #eaf2ef;
-	opacity: 0.7;
+.foreground2 img{
+	display: block;
+	margin: auto;
 }
 
-.foreground4 {
-	position: relative;
-	top: 10em;
-	background: #eaf2ef;
-	padding-bottom: 8em;
+#about{
+	padding-bottom: 80px;
 }
 
 h1 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 26px;
+	font-size: 24px;
 	font-weight: bold;
 	color: #0a0a0a;
 }
 
 h2 {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	font-weight: bold;
 	color: #0a0a0a;
 }
@@ -118,4 +135,8 @@ p {
 
 .info a {
 	color: #00b0ff;
+}
+
+.panel-group {
+	margin-bottom: 200px;
 }
