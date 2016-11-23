@@ -1,0 +1,145 @@
+.top-left-info {
+	color: #5a5a5a;
+	padding: 10px 3px 10px 0px;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.top-right-info {
+	padding-top: 10px;
+}
+
+.muted {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-family: 'Architects Daughter', cursive;
+	font-weight: lighter;
+}
+
+.nav a {
+	color: #5a5a5a;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 3px 10px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav li {
+	display: inline;
+}
+
+#container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	perspective: 1px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+#group1 {
+	height: 1000px;
+	position: relative;
+	transform-style: preserve-3d;
+}
+
+@keyframes animatedBackground {
+	from { background-position: 0%; }
+	to { background-position: 90000%; }
+}
+
+@-webkit-keyframes animatedBackground {
+	from { background-position: 0%; }
+	to { background-position: 90000%; }
+}
+
+/*For small devices*/
+@media only screen and (max-width: 736px) {
+	/*Regular background*/
+	#backgroundAnimated {
+		background-image: url(../images/background-3.png);
+		background-repeat: repeat-x;
+		transform: translateZ(-1px) scale(2);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0.7;
+		border-top: 0;
+		padding-top: 0;
+		margin-top: 0;
+	}
+	/*Adjust text to fit in one line*/
+	#footer p{
+		font-size: 10px;
+	}
+}
+
+/*For other devices has an animated background*/
+@media only screen and (min-width: 736px) {
+	#backgroundAnimated {
+		background-image: url(../images/background-3.png);
+		background-repeat: repeat-x;
+		animation: animatedBackground 100000s linear infinite;
+		-webkit-animation: animatedBackground 100000s linear infinite;
+		transform: translateZ(-1px) scale(2);
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0.7;
+		border-top: 0;
+		padding-top: 0;
+		margin-top: 0;
+		}
+}
+
+.foreground1 {
+	position: relative;
+	padding-top: 100px;
+	margin-bottom: 710px;
+}
+
+.center-image{
+	display: block;
+	margin: auto;
+}
+
+#about{
+	padding-bottom: 80px;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0a0a0a;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #0a0a0a;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #0a0a0a;
+}
+
+
+p {
+	font-family: 'Lato', sans-serif;
+	color: #0a0a0a;
+}
+
+.info a {
+	color: #00b0ff;
+}
+
+.panel-group {
+	margin-bottom: 200px;
+}
