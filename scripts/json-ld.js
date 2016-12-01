@@ -1,4 +1,3 @@
-<script type="application/ld+json">
     {
       "@context": "http://schema.org",
       "@type": "Person",
@@ -30,4 +29,3 @@
       "sameAs" : [ "https://github.com/Marioasf",
       "https://www.myopportunity.com/profile/mrio-francisco"]
     }
-    </script>
